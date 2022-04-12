@@ -4,7 +4,7 @@
 #
 Name     : pypi-janus
 Version  : 1.0.0
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/b8/a8/facab7275d7d3d2032f375843fe46fad1cfa604a108b5a238638d4615bdc/janus-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b8/a8/facab7275d7d3d2032f375843fe46fad1cfa604a108b5a238638d4615bdc/janus-1.0.0.tar.gz
 Summary  : Mixed sync-async queue to interoperate between asyncio tasks and classic threads
@@ -14,9 +14,6 @@ Requires: pypi-janus-license = %{version}-%{release}
 Requires: pypi-janus-python = %{version}-%{release}
 Requires: pypi-janus-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: janus
-Provides: janus-python
-Provides: janus-python3
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi(wheel)
@@ -72,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641447056
+export SOURCE_DATE_EPOCH=1649767178
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
