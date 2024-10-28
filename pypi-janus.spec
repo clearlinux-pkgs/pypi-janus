@@ -7,7 +7,7 @@
 #
 Name     : pypi-janus
 Version  : 1.0.0
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/b8/a8/facab7275d7d3d2032f375843fe46fad1cfa604a108b5a238638d4615bdc/janus-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/b8/a8/facab7275d7d3d2032f375843fe46fad1cfa604a108b5a238638d4615bdc/janus-1.0.0.tar.gz
 Summary  : Mixed sync-async queue to interoperate between asyncio tasks and classic threads
